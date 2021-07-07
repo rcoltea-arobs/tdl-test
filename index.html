@@ -54,7 +54,7 @@ fbq('track', 'PageView');
 <div class="box-table">
 <div class="box-cell">
 <div class="logo">
-<img src="https://www.irelandwestairport.com/images/logo.png" class="img-responsive center-block" alt="Logo">
+<img src="/images/logo.png" class="img-responsive center-block" alt="Logo">
 </div>
 <main>
 <div class="loader">
@@ -111,7 +111,7 @@ fbq('track', 'PageView');
         $.ajax({
             url: "/clubSignUp/addClubWestUser", // Url to which the request is send
             type: "POST", // Type of request to be send, called as method
-            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=a1lRSW92N0x0YzJsTEZHbTI0eWhib344M0FLUEJ-aES5iMPIaL0dt2qSnFu6ImHsiTzxIn6b03yNp9i-jsay7A==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
+            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=T3E4RFBDREdvVn5rbDYwQlRRMkY0bmpubkJFbm5ncnNJ-2UO8cxJbJP1W2suAR0Zfgz8T5RCTtB7-ryO5jMFWw==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
             success: function (data)   // A function to be called if request succeeds
             {
                 $("#clubSubscribe").attr("disabled", false);
@@ -163,7 +163,7 @@ fbq('track', 'PageView');
         $.ajax({
             url: "/clubSignUp/addClubWestUser", // Url to which the request is send
             type: "POST", // Type of request to be send, called as method
-            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=a1lRSW92N0x0YzJsTEZHbTI0eWhib344M0FLUEJ-aES5iMPIaL0dt2qSnFu6ImHsiTzxIn6b03yNp9i-jsay7A==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
+            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=T3E4RFBDREdvVn5rbDYwQlRRMkY0bmpubkJFbm5ncnNJ-2UO8cxJbJP1W2suAR0Zfgz8T5RCTtB7-ryO5jMFWw==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
             success: function (data)   // A function to be called if request succeeds
             {
                
@@ -206,7 +206,7 @@ function redirectPage(url, tab_id) {
         $.ajax({
             type: "POST",
             url: "/site/getArrival",
-            data: 'YII_CSRF_TOKEN=a1lRSW92N0x0YzJsTEZHbTI0eWhib344M0FLUEJ-aES5iMPIaL0dt2qSnFu6ImHsiTzxIn6b03yNp9i-jsay7A==',
+            data: 'YII_CSRF_TOKEN=T3E4RFBDREdvVn5rbDYwQlRRMkY0bmpubkJFbm5ncnNJ-2UO8cxJbJP1W2suAR0Zfgz8T5RCTtB7-ryO5jMFWw==',
             success: function (data) {
                 //var result = $.parseJSON(data);
 
@@ -220,7 +220,7 @@ function redirectPage(url, tab_id) {
         $.ajax({
             type: "POST",
             url: "/site/getDeparture",
-            data: 'YII_CSRF_TOKEN=a1lRSW92N0x0YzJsTEZHbTI0eWhib344M0FLUEJ-aES5iMPIaL0dt2qSnFu6ImHsiTzxIn6b03yNp9i-jsay7A==',
+            data: 'YII_CSRF_TOKEN=T3E4RFBDREdvVn5rbDYwQlRRMkY0bmpubkJFbm5ncnNJ-2UO8cxJbJP1W2suAR0Zfgz8T5RCTtB7-ryO5jMFWw==',
             success: function (data) {
                 //var result = $.parseJSON(data);
                 $('#departure_data').html(data);
@@ -422,7 +422,7 @@ Topper({
 <nav class="navbar navbar-default mainmenu">
 <div class="navbar-header">
 <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-<a class="navbar-brand" href="https://www.irelandwestairport.com"><img src="https://www.irelandwestairport.com/images/logo.png"></a> </div>
+<a class="navbar-brand" href="https://www.irelandwestairport.com"><img src="/images/logo.png"></a> </div>
 <script>
 function iOS() {
 
@@ -538,16 +538,16 @@ Flight Information<span class="caret"></span>
 </a>
 <ul class="dropdown-menu mega-dropdown-menu menu1">
 <li class=' list_4'><a class="touchhandleIOS" href="https://irelandwestairport.com/flight_information">
-<div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_55eefdb70debca.png" alt="Icon"></div>
+<div class="icon"><img src="/uploads/icons/icon_55eefdb70debca.png" alt="Icon"></div>
 Live flight Information</a></li>
 <li class=' list_10'><a class="touchhandleIOS" href="https://irelandwestairport.com/flight_information/destination">
-<div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_55eefdc1e11aaf.png" alt="Icon"></div>
+<div class="icon"><img src="/uploads/icons/icon_55eefdc1e11aaf.png" alt="Icon"></div>
 Destinations</a></li>
 <li class=' list_5'><a class="touchhandleIOS" href="https://irelandwestairport.com/flight_information/book-flight">
-<div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_55eefddee860e5.png" alt="Icon"></div>
+<div class="icon"><img src="/uploads/icons/icon_55eefddee860e5.png" alt="Icon"></div>
 Book Flights</a></li>
 <li class=' list_9'><a class="touchhandleIOS" href="https://irelandwestairport.com/flight_information/new-routes">
-<div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_55eefdec274265.png" alt="Icon"></div>
+<div class="icon"><img src="/uploads/icons/icon_55eefdec274265.png" alt="Icon"></div>
 New Routes</a></li>
 
 
@@ -559,22 +559,22 @@ Car Parking<span class="caret"></span>
 </a>
 <ul class="dropdown-menu mega-dropdown-menu menu1">
 <li class=' list_7'><a class="touchhandleIOS" href="https://irelandwestairport.com/car_parking">
- <div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_55eefdf7f6b584.png" alt="Icon"></div>
+<div class="icon"><img src="/uploads/icons/icon_55eefdf7f6b584.png" alt="Icon"></div>
 Book Parking Online</a></li>
 <li class=' list_30'><a class="touchhandleIOS" href="https://irelandwestairport.com/car_parking/drive-up-parking-rates">
-<div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_5588efa709f014.png" alt="Icon"></div>
+<div class="icon"><img src="/uploads/icons/icon_5588efa709f014.png" alt="Icon"></div>
 Drive Up Parking Rates</a></li>
 <li class=' list_31'><a class="touchhandleIOS" href="https://irelandwestairport.com/car_parking/set-down-area">
-<div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_55878ca6c7f61e.png" alt="Icon"></div>
+<div class="icon"><img src="/uploads/icons/icon_55878ca6c7f61e.png" alt="Icon"></div>
 Set-Down Area</a></li>
 <li class=' list_12'><a class="touchhandleIOS" href="https://irelandwestairport.com/car_parking/car-park-map">
-<div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_55eefe0164c68d.png" alt="Icon"></div>
+<div class="icon"><img src="/uploads/icons/icon_55eefe0164c68d.png" alt="Icon"></div>
 Car Park Map</a></li>
 <li class=' list_32'><a class="touchhandleIOS" href="https://irelandwestairport.com/car_parking/PRM-and-blue-badge-parking">
-<div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_55eefe04c2e8a2.png" alt="Icon"></div>
+<div class="icon"><img src="/uploads/icons/icon_55eefe04c2e8a2.png" alt="Icon"></div>
 PRM And Blue Badge Parking</a></li>
 <li class=' list_33'><a class="touchhandleIOS" href="https://irelandwestairport.com/car_parking/car-park-terms-and-conditions">
-<div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_55eefe0862decd.png" alt="Icon"></div>
+<div class="icon"><img src="/uploads/icons/icon_55eefe0862decd.png" alt="Icon"></div>
 Terms and Conditions</a></li>
 
 
@@ -586,22 +586,22 @@ At the Airport<span class="caret"></span>
 </a>
 <ul class="dropdown-menu mega-dropdown-menu menu1">
 <li class=' list_2'><a class="touchhandleIOS" href="https://www.irelandwestairport.com/at_the_airport">
-<div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_55eefe0a5ac889.png" alt="Icon"></div>
+<div class="icon"><img src="/uploads/icons/icon_55eefe0a5ac889.png" alt="Icon"></div>
 Airport Shopping</a></li>
 <li class=' list_25'><a class="touchhandleIOS" href="https://www.irelandwestairport.com/at_the_airport/restaurants-and-bars">
-<div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_55eefe0faed44d.png" alt="Icon"></div>
+<div class="icon"><img src="/uploads/icons/icon_55eefe0faed44d.png" alt="Icon"></div>
 Restaurants And Bars</a></li>
 <li class=' list_26'><a class="touchhandleIOS" href="https://www.irelandwestairport.com/at_the_airport/facilities-and-services">
-<div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_55eefe17e8d6d4.png" alt="Icon"></div>
+<div class="icon"><img src="/uploads/icons/icon_55eefe17e8d6d4.png" alt="Icon"></div>
 Facilities And Services</a></li>
 <li class=' list_27'><a class="touchhandleIOS" href="https://www.irelandwestairport.com/at_the_airport/security-and-customs">
-<div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_55eefe1b3ac114.png" alt="Icon"></div>
+<div class="icon"><img src="/uploads/icons/icon_55eefe1b3ac114.png" alt="Icon"></div>
 Security And Customs</a></li>
 <li class=' list_28'><a class="touchhandleIOS" href="https://www.irelandwestairport.com/at_the_airport/terminal-map">
-<div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_55eefe1c1bbfc9.png" alt="Icon"></div>
+<div class="icon"><img src="/uploads/icons/icon_55eefe1c1bbfc9.png" alt="Icon"></div>
 Terminal Map</a></li>
 <li class=' list_29'><a class="touchhandleIOS" href="https://www.irelandwestairport.com/at_the_airport/special-assistance">
- <div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_55eefe1e43900d.png" alt="Icon"></div>
+<div class="icon"><img src="/uploads/icons/icon_55eefe1e43900d.png" alt="Icon"></div>
 Special Assistance</a></li>
 
 
@@ -613,22 +613,22 @@ Directions & Transport<span class="caret"></span>
 </a>
 <ul class="dropdown-menu mega-dropdown-menu menu1">
 <li class=' list_17'><a class="touchhandleIOS" href="https://irelandwestairport.com/direction_and_transport/by-car">
-<div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_55eefe220c6adb.png" alt="Icon"></div>
- By Car</a></li>
+<div class="icon"><img src="/uploads/icons/icon_55eefe220c6adb.png" alt="Icon"></div>
+By Car</a></li>
 <li class=' list_14'><a class="touchhandleIOS" href="https://irelandwestairport.com/direction_and_transport/by-bus">
-<div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_55eefe24409fd0.png" alt="Icon"></div>
+<div class="icon"><img src="/uploads/icons/icon_55eefe24409fd0.png" alt="Icon"></div>
 By Bus</a></li>
 <li class=' list_13'><a class="touchhandleIOS" href="https://irelandwestairport.com/direction_and_transport/by-train">
-<div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_55eefe2695d30f.png" alt="Icon"></div>
+<div class="icon"><img src="/uploads/icons/icon_55eefe2695d30f.png" alt="Icon"></div>
 By Train</a></li>
 <li class=' list_15'><a class="touchhandleIOS" href="https://irelandwestairport.com/direction_and_transport/car-hire">
-<div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_55eefe27cdef48.png" alt="Icon"></div>
+<div class="icon"><img src="/uploads/icons/icon_55eefe27cdef48.png" alt="Icon"></div>
 Car Hire</a></li>
 <li class=' list_16'><a class="touchhandleIOS" href="https://irelandwestairport.com/direction_and_transport/airport-cabs">
-<div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_5589ae00618b36.png" alt="Icon"></div>
+<div class="icon"><img src="/uploads/icons/icon_5589ae00618b36.png" alt="Icon"></div>
 Airport Cabs</a></li>
 <li class=' list_18'><a class="touchhandleIOS" href="https://irelandwestairport.com/direction_and_transport/journey-planner">
-<div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_5589adf6002f17.png" alt="Icon"></div>
+<div class="icon"><img src="/uploads/icons/icon_5589adf6002f17.png" alt="Icon"></div>
 Journey Planner </a></li>
 
 
@@ -677,13 +677,13 @@ Journey Planner </a></li>
 <div class="container" id="tabMenuLarge">
 <ul class="nav nav-tabs nav-tabs-head">
 <li class="list_4 active "><a id="" class="tab_4" data-toggle="tab" href="#menu4">
-<div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_55eefdb70debca.png" alt="Icon"></div>Live flight Information</a></li>
+<div class="icon"><img src="/uploads/icons/icon_55eefdb70debca.png" alt="Icon"></div>Live flight Information</a></li>
 <li class="list_10  "><a id="" class="tab_10" data-toggle="tab" href="#menu10">
-<div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_55eefdc1e11aaf.png" alt="Icon"></div>Destinations</a></li>
+<div class="icon"><img src="/uploads/icons/icon_55eefdc1e11aaf.png" alt="Icon"></div>Destinations</a></li>
 <li class="list_5  "><a id="" class="tab_5" data-toggle="tab" href="#menu5">
-<div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_55eefddee860e5.png" alt="Icon"></div>Book Flights</a></li>
+<div class="icon"><img src="/uploads/icons/icon_55eefddee860e5.png" alt="Icon"></div>Book Flights</a></li>
 <li class="list_9  "><a id="" class="tab_9" data-toggle="tab" href="#menu9">
-<div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_55eefdec274265.png" alt="Icon"></div>New Routes</a></li>
+<div class="icon"><img src="/uploads/icons/icon_55eefdec274265.png" alt="Icon"></div>New Routes</a></li>
 </ul>
 </div>
 </div>
@@ -710,7 +710,7 @@ Journey Planner </a></li>
 <th>Airline</th>
 <th>Flight</th>
 <th>Time</th>
-<th>Origin</th>
+ <th>Origin</th>
 <th>Remarks</th>
 </tr>
 </thead>
@@ -736,7 +736,7 @@ Journey Planner </a></li>
 </table>
 </div>
 </div>
- </div>
+</div>
 </div>
 </div>
 </div>
@@ -959,7 +959,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </div>
 <div id="map-dest-2" class="map-dest-desc animated fadeIn">
 <label>Airline:</label>
-<span>Flybe</span> <br>
+ <span>Flybe</span> <br>
 <label>Frequency:</label>
 <span>Six Days per week</span> <br>
 <label>Season:</label>
@@ -1039,7 +1039,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <a class="button" target="_blank" href="https://www.ryanair.com/">Book Now</a>
 </div>
 <div id="map-dest-11" class="map-dest-desc animated fadeIn">
- <label>Tour Operator:</label>
+<label>Tour Operator:</label>
 <span>Marian Pilgrimages, Joe Walsh Tours</span> <br>
 <label>Frequency:</label>
 <span>Mon - Sun</span> <br>
@@ -1172,7 +1172,6 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </div>
 
 </div>
-
 
 <script>
 								jQuery(document).ready(function ($) {
@@ -2439,7 +2438,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <ul class="list-inline" style="overflow:visible;">
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="4">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d92123911ccd.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d92123911ccd.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Alicante</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_4">
@@ -2462,7 +2461,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="3">
-<img src="https://www.irelandwestairport.com/uploads/destinations/3-55d9212b500dec.jpg" alt="Icon">
+<img src="/uploads/destinations/3-55d9212b500dec.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Barcelona</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_3">
@@ -2485,7 +2484,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="9">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d9215250d1a8.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d9215250d1a8.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Bristol</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_9">
@@ -2493,7 +2492,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <tr>
 <td style="width:30%;">
 <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
- <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a> </div>
+<a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a> </div>
 </td>
 <td>
 <div class="_inner" style="float:left; font-weight: bold;">
@@ -2508,7 +2507,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="2">
-<img src="https://www.irelandwestairport.com/uploads/destinations/2-55d92132b2c785.jpg" alt="Icon">
+<img src="/uploads/destinations/2-55d92132b2c785.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Cadiz</h5>
 </a>
 <div class="tooltip" style="min-width:450px;" id="tooltip_2">
@@ -2531,7 +2530,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="10">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d92155f018ef.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d92155f018ef.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">East Midlands</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_10">
@@ -2554,7 +2553,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="11">
-<img src="https://www.irelandwestairport.com/uploads/destinations/11-5605b3a2bc0d1f.png" alt="Icon">
+<img src="/uploads/destinations/11-5605b3a2bc0d1f.png" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Edinburgh</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_11">
@@ -2577,7 +2576,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="17">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d9216cd87ab8.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d9216cd87ab8.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Faro</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_17">
@@ -2600,7 +2599,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="24">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55e67b836e751e.png" alt="Icon">
+<img src="/uploads/destinations/-55e67b836e751e.png" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Faro</h5>
 </a>
 <div class="tooltip" style="min-width:450px;" id="tooltip_24">
@@ -2623,7 +2622,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="12">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d9215af351cf.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d9215af351cf.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Liverpool</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_12">
@@ -2646,7 +2645,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="13">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d9215f46d83f.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d9215f46d83f.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">London (Gatwick)</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_13">
@@ -2669,7 +2668,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="14">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d9216241bf98.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d9216241bf98.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">London (Luton)</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_14">
@@ -2692,7 +2691,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="15">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d92165c56738.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d92165c56738.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">London (Stansted)</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_15">
@@ -2715,12 +2714,12 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="21">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d921817c02b2.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d921817c02b2.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Lourdes</h5>
 </a>
 <div class="tooltip" style="min-width:450px;" id="tooltip_21">
 <table style="margin: 0px;">
- <tr>
+<tr>
 <td style="width:40%;">
 <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
 <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://marian.ie/"> Book Now</a> <a target="_blank" style=" font-size:12px;" class="btn-booknow" href=""> Book Now</a> </div>
@@ -2738,7 +2737,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="5">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d9213f12c99f.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d9213f12c99f.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Malaga</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_5">
@@ -2761,7 +2760,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="16">
-<img src="https://www.irelandwestairport.com/uploads/destinations/16-5605b3a13d6e2e.png" alt="Icon">
+<img src="/uploads/destinations/16-5605b3a13d6e2e.png" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Manchester</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_16">
@@ -2784,7 +2783,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="23">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d9218d0b6ad4.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d9218d0b6ad4.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Medjugorje</h5>
 </a>
 <div class="tooltip" style="min-width:450px;" id="tooltip_23">
@@ -2807,7 +2806,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="19">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d92176c39cd0.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d92176c39cd0.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Milan</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_19">
@@ -2830,7 +2829,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="6">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d92143e14455.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d92143e14455.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Palma Majorca</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_6">
@@ -3634,7 +3633,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <span>Concorde Travel</span> <br>
 <label>Frequency:</label>
 <span>Ad Hoc</span> <br>
- <label>Season:</label>
+<label>Season:</label>
 <span>June to September</span> <br>
 <a class="button" target="_blank" href="https://www.concordetravel.ie">Book now with Concorde Travel</a>
 </div>
@@ -4924,7 +4923,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <ul class="list-inline" style="overflow:visible;">
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="4">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d92123911ccd.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d92123911ccd.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Alicante</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_4">
@@ -4947,7 +4946,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="3">
-<img src="https://www.irelandwestairport.com/uploads/destinations/3-55d9212b500dec.jpg" alt="Icon">
+<img src="/uploads/destinations/3-55d9212b500dec.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Barcelona</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_3">
@@ -4970,7 +4969,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="9">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d9215250d1a8.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d9215250d1a8.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Bristol</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_9">
@@ -4993,7 +4992,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="2">
-<img src="https://www.irelandwestairport.com/uploads/destinations/2-55d92132b2c785.jpg" alt="Icon">
+<img src="/uploads/destinations/2-55d92132b2c785.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Cadiz</h5>
 </a>
 <div class="tooltip" style="min-width:450px;" id="tooltip_2">
@@ -5016,7 +5015,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="10">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d92155f018ef.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d92155f018ef.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">East Midlands</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_10">
@@ -5039,7 +5038,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="11">
-<img src="https://www.irelandwestairport.com/uploads/destinations/11-5605b3a2bc0d1f.png" alt="Icon">
+<img src="/uploads/destinations/11-5605b3a2bc0d1f.png" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Edinburgh</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_11">
@@ -5062,7 +5061,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="17">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d9216cd87ab8.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d9216cd87ab8.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Faro</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_17">
@@ -5085,7 +5084,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="24">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55e67b836e751e.png" alt="Icon">
+<img src="/uploads/destinations/-55e67b836e751e.png" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Faro</h5>
 </a>
 <div class="tooltip" style="min-width:450px;" id="tooltip_24">
@@ -5108,7 +5107,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="12">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d9215af351cf.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d9215af351cf.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Liverpool</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_12">
@@ -5131,14 +5130,14 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="13">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d9215f46d83f.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d9215f46d83f.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">London (Gatwick)</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_13">
 <table style="margin: 0px;">
 <tr>
 <td style="width:30%;">
- <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
+<div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
 <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.aerlingus.com/html/home.html"> Book Now</a> </div>
 </td>
 <td>
@@ -5154,7 +5153,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="14">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d9216241bf98.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d9216241bf98.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">London (Luton)</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_14">
@@ -5177,7 +5176,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="15">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d92165c56738.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d92165c56738.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">London (Stansted)</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_15">
@@ -5200,7 +5199,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="21">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d921817c02b2.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d921817c02b2.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Lourdes</h5>
 </a>
 <div class="tooltip" style="min-width:450px;" id="tooltip_21">
@@ -5210,7 +5209,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
 <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://marian.ie/"> Book Now</a> <a target="_blank" style=" font-size:12px;" class="btn-booknow" href=""> Book Now</a> </div>
 </td>
- <td>
+<td>
 <div class="_inner" style="float:left; font-weight: bold;">
 <span>Tour Operator: </span>Marian Pilgrimages,<br>
 <span>Frequency:</span> Mon - Sun <br>
@@ -5223,7 +5222,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="5">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d9213f12c99f.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d9213f12c99f.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Malaga</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_5">
@@ -5246,7 +5245,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="16">
-<img src="https://www.irelandwestairport.com/uploads/destinations/16-5605b3a13d6e2e.png" alt="Icon">
+<img src="/uploads/destinations/16-5605b3a13d6e2e.png" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Manchester</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_16">
@@ -5269,7 +5268,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="23">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d9218d0b6ad4.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d9218d0b6ad4.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Medjugorje</h5>
 </a>
 <div class="tooltip" style="min-width:450px;" id="tooltip_23">
@@ -5292,7 +5291,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="19">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d92176c39cd0.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d92176c39cd0.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Milan</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_19">
@@ -5315,7 +5314,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="6">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d92143e14455.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d92143e14455.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Palma Majorca</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_6">
@@ -5382,7 +5381,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <td>
 <div class="_inner" style="float:left; font-weight: bold;">
 <span>Tour Operator: </span>Marian Pilgrimages,<br>
-<span>Frequency:</span> Mon - Sun <br>
+ <span>Frequency:</span> Mon - Sun <br>
 <span>Season:</span> May to October <br>
 </div>
 </td>
@@ -5412,7 +5411,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </td>
 </tr>
 </table>
- </div>
+</div>
 </h5>
 </div>
 </li>
@@ -5443,7 +5442,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </ul></div>
 <div class="col-md-4 col-sm-4">
 <ul>
-<li>
+ <li>
 <div class="c_name">
 <h4>Spain</h4>
 <h5 class="hover2"><a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map2" id="4">Alicante</a>
@@ -5469,7 +5468,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <div class="tooltip2" style="min-width:350px;" id="tooltip_3">
 <table style="margin: 0px;">
 <tr>
- <td style="width:30%;">
+<td style="width:30%;">
 <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
 <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a> </div>
 </td>
@@ -5491,7 +5490,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <td style="width:40%;">
 <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
 <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.paulclaffeytours.com/"> Book now with Paul Claffey Tours</a> </div>
-</td>
+ </td>
 <td>
 <div class="_inner" style="float:left; font-weight: bold;">
 <span>Tour Operator: </span>Paul Claffey Tours<br>
@@ -5516,7 +5515,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <span>Airline:</span> Ryanair<br>
 <span>Frequency:</span> Weekly <br>
 <span>Season:</span>  April to October <br>
- </div>
+</div>
 </td>
 </tr>
 </table>
@@ -5546,7 +5545,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <li>
 <div class="c_name">
 <h4>UK</h4>
-<h5 class="hover2"><a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map2" id="9">Bristol</a>
+ <h5 class="hover2"><a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map2" id="9">Bristol</a>
 <div class="tooltip2" style="min-width:350px;" id="tooltip_9">
 <table style="margin: 0px;">
 <tr>
@@ -5593,7 +5592,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a> </div>
 </td>
 <td>
-<div class="_inner" style="float:left; font-weight: bold;">
+ <div class="_inner" style="float:left; font-weight: bold;">
 <span>Airline:</span> Ryanair<br>
 <span>Frequency:</span> Two weekly flights <br>
 <span>Season:</span> Year round <br>
@@ -5618,7 +5617,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <span>Season:</span> Year round <br>
 </div>
 </td>
- </tr>
+</tr>
 </table>
 </div>
 </h5>
@@ -5643,7 +5642,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </h5>
 <h5 class="hover2"><a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map2" id="14">London (Luton)</a>
 <div class="tooltip2" style="min-width:350px;" id="tooltip_14">
-<table style="margin: 0px;">
+ <table style="margin: 0px;">
 <tr>
 <td style="width:30%;">
 <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
@@ -5666,7 +5665,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <tr>
 <td style="width:30%;">
 <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
-<a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a>  </div>
+<a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a> </div>
 </td>
 <td>
 <div class="_inner" style="float:left; font-weight: bold;">
@@ -5691,7 +5690,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <div class="_inner" style="float:left; font-weight: bold;">
 <span>Airline:</span> Ryanair<br>
 <span>Frequency:</span> Two weekly flights <br>
-<span>Season:</span> Year round <br>
+ <span>Season:</span> Year round <br>
 </div>
 </td>
 </tr>
@@ -5777,7 +5776,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </div>
 <div class="modal-body">
 <figure>
-<img src="https://www.irelandwestairport.com/uploads/content_pages_images/13-edinburg.jpg" class="img-responsive" alt="Image">
+<img src="/uploads/content_pages_images/13-edinburg.jpg" class="img-responsive" alt="Image">
 </figure>
 <figcaption>
 <h4>Edinburgh</h4>
@@ -5798,7 +5797,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </div>
 <div class="modal-body">
 <figure>
-<img src="https://www.irelandwestairport.com/uploads/content_pages_images/15-manchester.jpg" class="img-responsive" alt="Image">
+<img src="/uploads/content_pages_images/15-manchester.jpg" class="img-responsive" alt="Image">
 </figure>
 <figcaption>
 <h4>Manchester</h4>
@@ -5818,7 +5817,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </div>
 <div class="modal-body">
 <figure>
-<img src="https://www.irelandwestairport.com/uploads/content_pages_images/7-mallorca-port-de-soller-panorama.jpg" class="img-responsive" alt="Image">
+ <img src="/uploads/content_pages_images/7-mallorca-port-de-soller-panorama.jpg" class="img-responsive" alt="Image">
 </figure>
 <figcaption>
 <h4>Palma Majorca</h4>
@@ -5929,7 +5928,7 @@ $("#owl-route").owlCarousel({
 <th>Origin</th>
 <th>Remarks</th>
 </tr>
-</thead>
+ </thead>
 <tbody id="arrivals_data">
 </tbody>
 </table>
@@ -5958,7 +5957,6 @@ $("#owl-route").owlCarousel({
 </div>
 
 </div>
-
 </div>
 </div>
 </div>
@@ -6151,7 +6149,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <option disabled selected>Destinations</option>
 <option value="514">Alicante</option>
 <option value="512">Barcelona</option>
-<option value="7">Birmingham</option>
+ <option value="7">Birmingham</option>
 <option value="8">Bristol</option>
 <option value="18">Cadiz</option>
 <option value="24">Cologne</option>
@@ -6170,7 +6168,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <option value="2">Manchester</option>
 <option value="21">Medjugorje</option>
 <option value="10">Milan</option>
- <option value="25">Palma Majorca</option>
+<option value="25">Palma Majorca</option>
 
 <option value="22">Split</option>
 <option value="20">Tenerife</option>
@@ -6206,7 +6204,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <label>Airline:</label>
 <span>Ryanair</span> <br>
 <label>Frequency:</label>
-<span>Mon - Sun</span> <br>
+ <span>Mon - Sun</span> <br>
 <label>Season:</label>
 <span>Year round</span> <br>
 <a class="button" target="_blank" href="https://www.ryanair.com/">Book Now</a>
@@ -6246,7 +6244,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <label>Season:</label>
 <span>Year round</span> <br>
 <a class="button" target="_blank" href="https://www.ryanair.com/">Book Now</a>
- </div>
+</div>
 <div id="map-dest-9" class="map-dest-desc animated fadeIn">
 <label>Airline:</label>
 <span>Ryanair</span> <br>
@@ -6321,7 +6319,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <a class="button" target="_blank" href="https://marian.ie/">Book now with Marian Pilgrimages</a>
 <a class="button" target="_blank" href="http://www.joewalshtours.ie/">Book now with Joe Walsh Tours</a>
 </div>
- <div id="map-dest-17" class="map-dest-desc animated fadeIn">
+<div id="map-dest-17" class="map-dest-desc animated fadeIn">
 <label>Airline:</label>
 <span>Ryanair</span> <br>
 <label>Frequency:</label>
@@ -6359,7 +6357,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </div>
 <div id="map-dest-21" class="map-dest-desc animated fadeIn">
 <label>Tour Operator:</label>
-<span>Marian Pilgrimages, Joe Walsh Tours</span> <br>
+ <span>Marian Pilgrimages, Joe Walsh Tours</span> <br>
 <label>Frequency:</label>
 <span>Ad Hoc</span> <br>
 <label>Season:</label>
@@ -6387,7 +6385,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <a class="button" target="_blank" href="https://www.ryanair.com/">Book Now</a>
 </div>
 <div id="map-dest-25" class="map-dest-desc animated fadeIn">
- <label>Tour Operator:</label>
+<label>Tour Operator:</label>
 <span>TUI Ireland</span> <br>
 <label>Frequency:</label>
 <span>Weekly</span> <br>
@@ -7665,7 +7663,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <ul class="list-inline" style="overflow:visible;">
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="4">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d92123911ccd.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d92123911ccd.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Alicante</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_4">
@@ -7688,7 +7686,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="3">
-<img src="https://www.irelandwestairport.com/uploads/destinations/3-55d9212b500dec.jpg" alt="Icon">
+<img src="/uploads/destinations/3-55d9212b500dec.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Barcelona</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_3">
@@ -7711,7 +7709,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="9">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d9215250d1a8.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d9215250d1a8.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Bristol</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_9">
@@ -7734,7 +7732,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="2">
-<img src="https://www.irelandwestairport.com/uploads/destinations/2-55d92132b2c785.jpg" alt="Icon">
+<img src="/uploads/destinations/2-55d92132b2c785.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Cadiz</h5>
 </a>
 <div class="tooltip" style="min-width:450px;" id="tooltip_2">
@@ -7757,13 +7755,13 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="10">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d92155f018ef.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d92155f018ef.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">East Midlands</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_10">
 <table style="margin: 0px;">
 <tr>
-<td style="width:30%;">
+ <td style="width:30%;">
 <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
 <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a> </div>
 </td>
@@ -7771,7 +7769,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <div class="_inner" style="float:left; font-weight: bold;">
 <span>Airline:</span> Ryanair<br>
 <span>Frequency:</span> Up to Five Weekly <br>
- <span>Season:</span> Year round <br>
+<span>Season:</span> Year round <br>
 </div>
 </td>
 </tr>
@@ -7780,7 +7778,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="11">
-<img src="https://www.irelandwestairport.com/uploads/destinations/11-5605b3a2bc0d1f.png" alt="Icon">
+<img src="/uploads/destinations/11-5605b3a2bc0d1f.png" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Edinburgh</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_11">
@@ -7803,7 +7801,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="17">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d9216cd87ab8.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d9216cd87ab8.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Faro</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_17">
@@ -7826,7 +7824,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="24">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55e67b836e751e.png" alt="Icon">
+<img src="/uploads/destinations/-55e67b836e751e.png" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Faro</h5>
 </a>
 <div class="tooltip" style="min-width:450px;" id="tooltip_24">
@@ -7849,7 +7847,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="12">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d9215af351cf.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d9215af351cf.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Liverpool</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_12">
@@ -7872,7 +7870,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="13">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d9215f46d83f.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d9215f46d83f.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">London (Gatwick)</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_13">
@@ -7895,10 +7893,33 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="14">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d9216241bf98.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d9216241bf98.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">London (Luton)</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_14">
+<table style="margin: 0px;">
+<tr>
+<td style="width:30%;">
+<div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
+<a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a> </div>
+</td>
+<td>
+<div class="_inner" style="float:left; font-weight: bold;">
+<span>Airline:</span> Ryanair<br>
+<span>Frequency:</span> Daily <br>
+<span>Season:</span> Year round <br>
+</div>
+</td>
+ </tr>
+</table>
+</div>
+</li>
+<li class="hover">
+<a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="15">
+<img src="/uploads/destinations/-55d92165c56738.jpg" alt="Icon">
+<h5 style="font-size: 12pt; color: #333;">London (Stansted)</h5>
+</a>
+<div class="tooltip" style="min-width:350px;" id="tooltip_15">
 <table style="margin: 0px;">
 <tr>
 <td style="width:30%;">
@@ -7917,31 +7938,8 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </div>
 </li>
 <li class="hover">
-<a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="15">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d92165c56738.jpg" alt="Icon">
-<h5 style="font-size: 12pt; color: #333;">London (Stansted)</h5>
-</a>
-<div class="tooltip" style="min-width:350px;" id="tooltip_15">
-<table style="margin: 0px;">
-<tr>
-<td style="width:30%;">
- <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
-<a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a> </div>
-</td>
-<td>
-<div class="_inner" style="float:left; font-weight: bold;">
-<span>Airline:</span> Ryanair<br>
-<span>Frequency:</span> Daily <br>
-<span>Season:</span> Year round <br>
-</div>
-</td>
-</tr>
-</table>
-</div>
-</li>
-<li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="21">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d921817c02b2.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d921817c02b2.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Lourdes</h5>
 </a>
 <div class="tooltip" style="min-width:450px;" id="tooltip_21">
@@ -7964,7 +7962,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="5">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d9213f12c99f.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d9213f12c99f.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Malaga</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_5">
@@ -7987,7 +7985,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="16">
-<img src="https://www.irelandwestairport.com/uploads/destinations/16-5605b3a13d6e2e.png" alt="Icon">
+<img src="/uploads/destinations/16-5605b3a13d6e2e.png" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Manchester</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_16">
@@ -7997,7 +7995,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
 <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a> </div>
 </td>
- <td>
+<td>
 <div class="_inner" style="float:left; font-weight: bold;">
 <span>Airline:</span> Ryanair<br>
 <span>Frequency:</span> Two weekly flights <br>
@@ -8010,7 +8008,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="23">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d9218d0b6ad4.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d9218d0b6ad4.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Medjugorje</h5>
 </a>
 <div class="tooltip" style="min-width:450px;" id="tooltip_23">
@@ -8033,7 +8031,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="19">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d92176c39cd0.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d92176c39cd0.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Milan</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_19">
@@ -8056,7 +8054,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="6">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d92143e14455.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d92143e14455.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Palma Majorca</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_6">
@@ -8122,7 +8120,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </td>
 <td>
 <div class="_inner" style="float:left; font-weight: bold;">
-<span>Tour Operator: </span>Marian Pilgrimages,<br>
+ <span>Tour Operator: </span>Marian Pilgrimages,<br>
 <span>Frequency:</span> Mon - Sun <br>
 <span>Season:</span> May to October <br>
 </div>
@@ -8132,7 +8130,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </div>
 </h5>
 </div>
- </li>
+</li>
 <li>
 <div class="c_name">
 <h4>Italy</h4>
@@ -8180,7 +8178,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </div>
 </h5>
 </div>
-</li>
+ </li>
 </ul></div>
 <div class="col-md-4 col-sm-4">
 <ul>
@@ -8292,7 +8290,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <table style="margin: 0px;">
 <tr>
 <td style="width:30%;">
- <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
+<div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
 <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a> </div>
 </td>
 <td>
@@ -8331,7 +8329,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <tr>
 <td style="width:30%;">
 <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
-<a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a> </div>
+<a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a>  </div>
 </td>
 <td>
 <div class="_inner" style="float:left; font-weight: bold;">
@@ -8339,7 +8337,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <span>Frequency:</span> Two weekly flights <br>
 <span>Season:</span> Year round <br>
 </div>
- </td>
+</td>
 </tr>
 </table>
 </div>
@@ -8430,7 +8428,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </td>
 <td>
 <div class="_inner" style="float:left; font-weight: bold;">
-<span>Airline:</span> Ryanair<br>
+ <span>Airline:</span> Ryanair<br>
 <span>Frequency:</span> Two weekly flights <br>
 <span>Season:</span> Year round <br>
 </div>
@@ -8440,7 +8438,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </div>
 </h5>
 </div>
- </li>
+</li>
 </div>
 </div>
 </div>
@@ -8795,7 +8793,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <label>Airline:</label>
 <span>Ryanair</span> <br>
 <label>Frequency:</label>
- <span>Weekly flights</span> <br>
+<span>Weekly flights</span> <br>
 <label>Season:</label>
 <span>April to October</span> <br>
 <a class="button" target="_blank" href="https://www.ryanair.com/">Book Now</a>
@@ -10154,7 +10152,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <ul class="list-inline" style="overflow:visible;">
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="4">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d92123911ccd.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d92123911ccd.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Alicante</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_4">
@@ -10177,7 +10175,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="3">
-<img src="https://www.irelandwestairport.com/uploads/destinations/3-55d9212b500dec.jpg" alt="Icon">
+<img src="/uploads/destinations/3-55d9212b500dec.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Barcelona</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_3">
@@ -10200,7 +10198,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="9">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d9215250d1a8.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d9215250d1a8.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Bristol</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_9">
@@ -10223,11 +10221,11 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="2">
-<img src="https://www.irelandwestairport.com/uploads/destinations/2-55d92132b2c785.jpg" alt="Icon">
+<img src="/uploads/destinations/2-55d92132b2c785.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Cadiz</h5>
 </a>
 <div class="tooltip" style="min-width:450px;" id="tooltip_2">
- <table style="margin: 0px;">
+<table style="margin: 0px;">
 <tr>
 <td style="width:40%;">
 <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
@@ -10246,7 +10244,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="10">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d92155f018ef.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d92155f018ef.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">East Midlands</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_10">
@@ -10269,7 +10267,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="11">
-<img src="https://www.irelandwestairport.com/uploads/destinations/11-5605b3a2bc0d1f.png" alt="Icon">
+<img src="/uploads/destinations/11-5605b3a2bc0d1f.png" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Edinburgh</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_11">
@@ -10292,7 +10290,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="17">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d9216cd87ab8.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d9216cd87ab8.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Faro</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_17">
@@ -10315,7 +10313,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="24">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55e67b836e751e.png" alt="Icon">
+<img src="/uploads/destinations/-55e67b836e751e.png" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Faro</h5>
 </a>
 <div class="tooltip" style="min-width:450px;" id="tooltip_24">
@@ -10338,7 +10336,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="12">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d9215af351cf.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d9215af351cf.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Liverpool</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_12">
@@ -10361,7 +10359,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="13">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d9215f46d83f.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d9215f46d83f.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">London (Gatwick)</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_13">
@@ -10375,7 +10373,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <div class="_inner" style="float:left; font-weight: bold;">
 <span>Airline:</span> Aer Lingus<br>
 <span>Frequency:</span> Daily <br>
- <span>Season:</span> Year round <br>
+<span>Season:</span> Year round <br>
 </div>
 </td>
 </tr>
@@ -10384,7 +10382,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="14">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d9216241bf98.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d9216241bf98.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">London (Luton)</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_14">
@@ -10407,7 +10405,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="15">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d92165c56738.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d92165c56738.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">London (Stansted)</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_15">
@@ -10430,7 +10428,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="21">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d921817c02b2.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d921817c02b2.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Lourdes</h5>
 </a>
 <div class="tooltip" style="min-width:450px;" id="tooltip_21">
@@ -10453,7 +10451,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="5">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d9213f12c99f.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d9213f12c99f.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Malaga</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_5">
@@ -10470,13 +10468,13 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <span>Season:</span>  April to October <br>
 </div>
 </td>
-</tr>
+ </tr>
 </table>
 </div>
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="16">
-<img src="https://www.irelandwestairport.com/uploads/destinations/16-5605b3a13d6e2e.png" alt="Icon">
+<img src="/uploads/destinations/16-5605b3a13d6e2e.png" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Manchester</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_16">
@@ -10499,7 +10497,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="23">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d9218d0b6ad4.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d9218d0b6ad4.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Medjugorje</h5>
 </a>
 <div class="tooltip" style="min-width:450px;" id="tooltip_23">
@@ -10522,11 +10520,10 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="19">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d92176c39cd0.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d92176c39cd0.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Milan</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_19">
-
 <table style="margin: 0px;">
 <tr>
 <td style="width:30%;">
@@ -10546,7 +10543,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="6">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d92143e14455.jpg" alt="Icon">
+<img src="/uploads/destinations/-55d92143e14455.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Palma Majorca</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_6">
@@ -10589,7 +10586,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <td>
 <div class="_inner" style="float:left; font-weight: bold;">
 <span>Tour Operator: </span>Marian Pilgrimages,<br>
-<span>Frequency:</span> Ad Hoc <br>
+ <span>Frequency:</span> Ad Hoc <br>
 <span>Season:</span> May to October <br>
 </div>
 </td>
@@ -10647,7 +10644,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </h5>
 </div>
 </li>
-<li>
+ <li>
 <div class="c_name">
 <h4>Portugal</h4>
 <h5 class="hover2"><a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map2" id="24">Faro</a>
@@ -10702,7 +10699,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <tr>
 <td style="width:30%;">
 <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
- <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a> </div>
+<a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a> </div>
 </td>
 <td>
 <div class="_inner" style="float:left; font-weight: bold;">
@@ -10749,7 +10746,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <span>Season:</span>  April to October <br>
 </div>
 </td>
-</tr>
+ </tr>
 </table>
 </div>
 </h5>
@@ -10802,7 +10799,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <tr>
 <td style="width:30%;">
 <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
-<a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a> </div>
+ <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a> </div>
 </td>
 <td>
 <div class="_inner" style="float:left; font-weight: bold;">
@@ -10853,7 +10850,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </table>
 </div>
 </h5>
- <h5 class="hover2"><a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map2" id="13">London (Gatwick)</a>
+<h5 class="hover2"><a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map2" id="13">London (Gatwick)</a>
 <div class="tooltip2" style="min-width:350px;" id="tooltip_13">
 <table style="margin: 0px;">
 <tr>
@@ -10899,8 +10896,8 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
 <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a> </div>
 </td>
-<td>
- <div class="_inner" style="float:left; font-weight: bold;">
+ <td>
+<div class="_inner" style="float:left; font-weight: bold;">
 <span>Airline:</span> Ryanair<br>
 <span>Frequency:</span> Daily <br>
 <span>Season:</span> Year round <br>
@@ -11017,7 +11014,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </div>
 <div class="modal-body">
 <figure>
-<img src="https://www.irelandwestairport.com/uploads/content_pages_images/13-edinburg.jpg" class="img-responsive" alt="Image">
+<img src="/uploads/content_pages_images/13-edinburg.jpg" class="img-responsive" alt="Image">
 </figure>
 <figcaption>
 <h4>Edinburgh</h4>
@@ -11027,7 +11024,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <p>Starting on September 1st flights operate every Wednesday and Sunday with Ryanair and will operate all year round. Book cheap flights now to Edinburgh from Ireland West Airport on <a href="http://ryanair.com" target="_blank">ryanair.com</a></p>
 </figcaption>
 </div>
- </div>
+</div>
 </div>
 </div>
 <div id="myModal-info15" class="modal fade new-route" role="dialog">
@@ -11038,7 +11035,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </div>
 <div class="modal-body">
 <figure>
-<img src="https://www.irelandwestairport.com/uploads/content_pages_images/15-manchester.jpg" class="img-responsive" alt="Image">
+<img src="/uploads/content_pages_images/15-manchester.jpg" class="img-responsive" alt="Image">
 </figure>
 <figcaption>
 <h4>Manchester</h4>
@@ -11058,7 +11055,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </div>
 <div class="modal-body">
 <figure>
-<img src="https://www.irelandwestairport.com/uploads/content_pages_images/7-mallorca-port-de-soller-panorama.jpg" class="img-responsive" alt="Image">
+<img src="/uploads/content_pages_images/7-mallorca-port-de-soller-panorama.jpg" class="img-responsive" alt="Image">
 </figure>
 <figcaption>
 <h4>Palma Majorca</h4>
@@ -11440,6 +11437,6 @@ $("#owl-news_mob").owlCarousel({
 
             });
         </script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"66aeda658c0e4238","token":"5c57d97659e94e0085a1d41247fcad19","version":"2021.6.0","si":10}'></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"66aedd608fae4233","token":"5c57d97659e94e0085a1d41247fcad19","version":"2021.6.0","si":10}'></script>
 </body>
 </html>
