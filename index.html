@@ -111,7 +111,7 @@ fbq('track', 'PageView');
         $.ajax({
             url: "/clubSignUp/addClubWestUser", // Url to which the request is send
             type: "POST", // Type of request to be send, called as method
-            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=T3E4RFBDREdvVn5rbDYwQlRRMkY0bmpubkJFbm5ncnNJ-2UO8cxJbJP1W2suAR0Zfgz8T5RCTtB7-ryO5jMFWw==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
+            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=WlprNjhXSlNmWExCaGkzTVhkUHpMUGZhOEJ-WTB4SmLO2kCRjbLH60QT4tO-I_GtgjVqE-Ptu9UPNjg0P48utw==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
             success: function (data)   // A function to be called if request succeeds
             {
                 $("#clubSubscribe").attr("disabled", false);
@@ -163,7 +163,7 @@ fbq('track', 'PageView');
         $.ajax({
             url: "/clubSignUp/addClubWestUser", // Url to which the request is send
             type: "POST", // Type of request to be send, called as method
-            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=T3E4RFBDREdvVn5rbDYwQlRRMkY0bmpubkJFbm5ncnNJ-2UO8cxJbJP1W2suAR0Zfgz8T5RCTtB7-ryO5jMFWw==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
+            data: "club_email=" + emailAddress+'&YII_CSRF_TOKEN=WlprNjhXSlNmWExCaGkzTVhkUHpMUGZhOEJ-WTB4SmLO2kCRjbLH60QT4tO-I_GtgjVqE-Ptu9UPNjg0P48utw==', // Data sent to server, a set of key/value pairs (i.e. form fields and values)
             success: function (data)   // A function to be called if request succeeds
             {
                
@@ -206,7 +206,7 @@ function redirectPage(url, tab_id) {
         $.ajax({
             type: "POST",
             url: "/site/getArrival",
-            data: 'YII_CSRF_TOKEN=T3E4RFBDREdvVn5rbDYwQlRRMkY0bmpubkJFbm5ncnNJ-2UO8cxJbJP1W2suAR0Zfgz8T5RCTtB7-ryO5jMFWw==',
+            data: 'YII_CSRF_TOKEN=WlprNjhXSlNmWExCaGkzTVhkUHpMUGZhOEJ-WTB4SmLO2kCRjbLH60QT4tO-I_GtgjVqE-Ptu9UPNjg0P48utw==',
             success: function (data) {
                 //var result = $.parseJSON(data);
 
@@ -220,7 +220,7 @@ function redirectPage(url, tab_id) {
         $.ajax({
             type: "POST",
             url: "/site/getDeparture",
-            data: 'YII_CSRF_TOKEN=T3E4RFBDREdvVn5rbDYwQlRRMkY0bmpubkJFbm5ncnNJ-2UO8cxJbJP1W2suAR0Zfgz8T5RCTtB7-ryO5jMFWw==',
+            data: 'YII_CSRF_TOKEN=WlprNjhXSlNmWExCaGkzTVhkUHpMUGZhOEJ-WTB4SmLO2kCRjbLH60QT4tO-I_GtgjVqE-Ptu9UPNjg0P48utw==',
             success: function (data) {
                 //var result = $.parseJSON(data);
                 $('#departure_data').html(data);
@@ -546,7 +546,7 @@ Destinations</a></li>
 <li class=' list_5'><a class="touchhandleIOS" href="https://irelandwestairport.com/flight_information/book-flight">
 <div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_55eefddee860e5.png" alt="Icon"></div>
 Book Flights</a></li>
-<li class=' list_9'><a class="touchhandleIOS" href="https://irelandwestairport.com/flight_information/new-routes">
+ <li class=' list_9'><a class="touchhandleIOS" href="https://irelandwestairport.com/flight_information/new-routes">
 <div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_55eefdec274265.png" alt="Icon"></div>
 New Routes</a></li>
 
@@ -559,7 +559,7 @@ Car Parking<span class="caret"></span>
 </a>
 <ul class="dropdown-menu mega-dropdown-menu menu1">
 <li class=' list_7'><a class="touchhandleIOS" href="https://irelandwestairport.com/car_parking">
-<div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_55eefdf7f6b584.png" alt="Icon"></div>
+ <div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_55eefdf7f6b584.png" alt="Icon"></div>
 Book Parking Online</a></li>
 <li class=' list_30'><a class="touchhandleIOS" href="https://irelandwestairport.com/car_parking/drive-up-parking-rates">
 <div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_5588efa709f014.png" alt="Icon"></div>
@@ -677,7 +677,7 @@ Journey Planner </a></li>
 <div class="container" id="tabMenuLarge">
 <ul class="nav nav-tabs nav-tabs-head">
 <li class="list_4 active "><a id="" class="tab_4" data-toggle="tab" href="#menu4">
-<div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_55eefdb70debca.png" alt="Icon"></div>Live flight Information</a></li>
+ <div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_55eefdb70debca.png" alt="Icon"></div>Live flight Information</a></li>
 <li class="list_10  "><a id="" class="tab_10" data-toggle="tab" href="#menu10">
 <div class="icon"><img src="https://www.irelandwestairport.com/uploads/icons/icon_55eefdc1e11aaf.png" alt="Icon"></div>Destinations</a></li>
 <li class="list_5  "><a id="" class="tab_5" data-toggle="tab" href="#menu5">
@@ -710,7 +710,7 @@ Journey Planner </a></li>
 <th>Airline</th>
 <th>Flight</th>
 <th>Time</th>
- <th>Origin</th>
+<th>Origin</th>
 <th>Remarks</th>
 </tr>
 </thead>
@@ -734,7 +734,7 @@ Journey Planner </a></li>
 <tbody id="departure_data">
 </tbody>
 </table>
-</div>
+ </div>
 </div>
 </div>
 </div>
@@ -2490,7 +2490,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <div class="tooltip" style="min-width:350px;" id="tooltip_9">
 <table style="margin: 0px;">
 <tr>
-<td style="width:30%;">
+ <td style="width:30%;">
 <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
 <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a> </div>
 </td>
@@ -2563,7 +2563,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
 <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a> </div>
 </td>
-<td>
+ <td>
 <div class="_inner" style="float:left; font-weight: bold;">
 <span>Airline:</span> Ryanair<br>
 <span>Frequency:</span> Two weekly flights <br>
@@ -2639,7 +2639,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <span>Season:</span> Year round <br>
 </div>
 </td>
-</tr>
+ </tr>
 </table>
 </div>
 </li>
@@ -2716,7 +2716,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map" id="21">
 <img src="https://www.irelandwestairport.com/uploads/destinations/-55d921817c02b2.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Lourdes</h5>
-</a>
+ </a>
 <div class="tooltip" style="min-width:450px;" id="tooltip_21">
 <table style="margin: 0px;">
 <tr>
@@ -2810,9 +2810,10 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <h5 style="font-size: 12pt; color: #333;">Milan</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_19">
+
 <table style="margin: 0px;">
 <tr>
- <td style="width:30%;">
+<td style="width:30%;">
 <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
 <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a> </div>
 </td>
@@ -2878,10 +2879,9 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </td>
 </tr>
 </table>
-</div>
+ </div>
 </h5>
 </div>
-
 </li>
 <li>
 <div class="c_name">
@@ -2938,7 +2938,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <div class="tooltip2" style="min-width:450px;" id="tooltip_24">
 <table style="margin: 0px;">
 <tr>
- <td style="width:40%;">
+<td style="width:40%;">
 <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
 <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="http://www.paulclaffeytours.com/"> Book Now</a> </div>
 </td>
@@ -2989,8 +2989,8 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a> </div>
 </td>
 <td>
-<div class="_inner" style="float:left; font-weight: bold;">
- <span>Airline:</span> Ryanair<br>
+ <div class="_inner" style="float:left; font-weight: bold;">
+<span>Airline:</span> Ryanair<br>
 <span>Frequency:</span> Twice Weekly <br>
 <span>Season:</span> July to August <br>
 </div>
@@ -3039,8 +3039,8 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </h5>
 <h5 class="hover2"><a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map2" id="6">Palma Majorca</a>
 <div class="tooltip2" style="min-width:350px;" id="tooltip_6">
-<table style="margin: 0px;">
- <tr>
+ <table style="margin: 0px;">
+<tr>
 <td style="width:30%;">
 <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
 <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.laudamotion.com/la/en/"> Book now </a> </div>
@@ -3090,8 +3090,8 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </td>
 <td>
 <div class="_inner" style="float:left; font-weight: bold;">
-<span>Airline:</span> Ryanair<br>
- <span>Frequency:</span> Up to Five Weekly <br>
+ <span>Airline:</span> Ryanair<br>
+<span>Frequency:</span> Up to Five Weekly <br>
 <span>Season:</span> Year round <br>
 </div>
 </td>
@@ -3142,7 +3142,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <table style="margin: 0px;">
 <tr>
 <td style="width:30%;">
- <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
+<div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
 <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.aerlingus.com/html/home.html"> Book Now</a> </div>
 </td>
 <td>
@@ -3188,8 +3188,8 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <span>Airline:</span> Ryanair<br>
 <span>Frequency:</span> Daily <br>
 <span>Season:</span> Year round <br>
-</div>
- </td>
+ </div>
+</td>
 </tr>
 </table>
 </div>
@@ -3418,7 +3418,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <option value="24">Cologne</option>
 <option value="9">East Midlands</option>
 <option value="1">Edinburgh</option>
-<option value="17">Faro</option>
+ <option value="17">Faro</option>
 <option value="16">Fatima</option>
 
 <option value="19">Lanzarote</option>
@@ -4983,7 +4983,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <div class="_inner" style="float:left; font-weight: bold;">
 <span>Airline:</span> Ryanair<br>
 <span>Frequency:</span> Three Times Weekly <br>
-<span>Season:</span> Year round <br>
+ <span>Season:</span> Year round <br>
 </div>
 </td>
 </tr>
@@ -5208,7 +5208,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <td style="width:40%;">
 <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
 <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://marian.ie/"> Book Now</a> <a target="_blank" style=" font-size:12px;" class="btn-booknow" href=""> Book Now</a> </div>
-</td>
+ </td>
 <td>
 <div class="_inner" style="float:left; font-weight: bold;">
 <span>Tour Operator: </span>Marian Pilgrimages,<br>
@@ -5282,7 +5282,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <div class="_inner" style="float:left; font-weight: bold;">
 <span>Tour Operator: </span>Marian Pilgrimages,<br>
 <span>Frequency:</span> Ad Hoc <br>
-<span>Season:</span> May to October <br>
+ <span>Season:</span> May to October <br>
 </div>
 </td>
 </tr>
@@ -5381,7 +5381,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <td>
 <div class="_inner" style="float:left; font-weight: bold;">
 <span>Tour Operator: </span>Marian Pilgrimages,<br>
- <span>Frequency:</span> Mon - Sun <br>
+<span>Frequency:</span> Mon - Sun <br>
 <span>Season:</span> May to October <br>
 </div>
 </td>
@@ -5410,7 +5410,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </div>
 </td>
 </tr>
-</table>
+ </table>
 </div>
 </h5>
 </div>
@@ -5442,7 +5442,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </ul></div>
 <div class="col-md-4 col-sm-4">
 <ul>
- <li>
+<li>
 <div class="c_name">
 <h4>Spain</h4>
 <h5 class="hover2"><a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map2" id="4">Alicante</a>
@@ -5468,7 +5468,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <div class="tooltip2" style="min-width:350px;" id="tooltip_3">
 <table style="margin: 0px;">
 <tr>
-<td style="width:30%;">
+ <td style="width:30%;">
 <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
 <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a> </div>
 </td>
@@ -5490,7 +5490,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <td style="width:40%;">
 <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
 <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.paulclaffeytours.com/"> Book now with Paul Claffey Tours</a> </div>
- </td>
+</td>
 <td>
 <div class="_inner" style="float:left; font-weight: bold;">
 <span>Tour Operator: </span>Paul Claffey Tours<br>
@@ -5515,7 +5515,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <span>Airline:</span> Ryanair<br>
 <span>Frequency:</span> Weekly <br>
 <span>Season:</span>  April to October <br>
-</div>
+ </div>
 </td>
 </tr>
 </table>
@@ -5545,7 +5545,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <li>
 <div class="c_name">
 <h4>UK</h4>
- <h5 class="hover2"><a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map2" id="9">Bristol</a>
+<h5 class="hover2"><a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map2" id="9">Bristol</a>
 <div class="tooltip2" style="min-width:350px;" id="tooltip_9">
 <table style="margin: 0px;">
 <tr>
@@ -5569,7 +5569,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <table style="margin: 0px;">
 <tr>
 <td style="width:30%;">
-<div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
+ <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
 <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a> </div>
 </td>
 <td>
@@ -5592,7 +5592,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a> </div>
 </td>
 <td>
- <div class="_inner" style="float:left; font-weight: bold;">
+<div class="_inner" style="float:left; font-weight: bold;">
 <span>Airline:</span> Ryanair<br>
 <span>Frequency:</span> Two weekly flights <br>
 <span>Season:</span> Year round <br>
@@ -5617,7 +5617,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <span>Season:</span> Year round <br>
 </div>
 </td>
-</tr>
+ </tr>
 </table>
 </div>
 </h5>
@@ -5642,7 +5642,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </h5>
 <h5 class="hover2"><a href="javascript:void(0)" url-id="#demo-map" data-trigger="tab" class="destination_map2" id="14">London (Luton)</a>
 <div class="tooltip2" style="min-width:350px;" id="tooltip_14">
- <table style="margin: 0px;">
+<table style="margin: 0px;">
 <tr>
 <td style="width:30%;">
 <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
@@ -5690,7 +5690,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <div class="_inner" style="float:left; font-weight: bold;">
 <span>Airline:</span> Ryanair<br>
 <span>Frequency:</span> Two weekly flights <br>
- <span>Season:</span> Year round <br>
+<span>Season:</span> Year round <br>
 </div>
 </td>
 </tr>
@@ -5745,7 +5745,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </div>
 </div>
 </div>
-<div class="item" style="background-image:url(/uploads/content_pages_images/15-manchester.jpg);">
+ <div class="item" style="background-image:url(/uploads/content_pages_images/15-manchester.jpg);">
 <div class="caption">
 <div class="box-cell">
 <h4>Featured Destination</h4>
@@ -5817,7 +5817,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </div>
 <div class="modal-body">
 <figure>
- <img src="https://www.irelandwestairport.com/uploads/content_pages_images/7-mallorca-port-de-soller-panorama.jpg" class="img-responsive" alt="Image">
+<img src="https://www.irelandwestairport.com/uploads/content_pages_images/7-mallorca-port-de-soller-panorama.jpg" class="img-responsive" alt="Image">
 </figure>
 <figcaption>
 <h4>Palma Majorca</h4>
@@ -5928,7 +5928,7 @@ $("#owl-route").owlCarousel({
 <th>Origin</th>
 <th>Remarks</th>
 </tr>
- </thead>
+</thead>
 <tbody id="arrivals_data">
 </tbody>
 </table>
@@ -5957,6 +5957,7 @@ $("#owl-route").owlCarousel({
 </div>
 
 </div>
+
 </div>
 </div>
 </div>
@@ -6149,7 +6150,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <option disabled selected>Destinations</option>
 <option value="514">Alicante</option>
 <option value="512">Barcelona</option>
- <option value="7">Birmingham</option>
+<option value="7">Birmingham</option>
 <option value="8">Bristol</option>
 <option value="18">Cadiz</option>
 <option value="24">Cologne</option>
@@ -6168,7 +6169,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <option value="2">Manchester</option>
 <option value="21">Medjugorje</option>
 <option value="10">Milan</option>
-<option value="25">Palma Majorca</option>
+ <option value="25">Palma Majorca</option>
 
 <option value="22">Split</option>
 <option value="20">Tenerife</option>
@@ -6204,7 +6205,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <label>Airline:</label>
 <span>Ryanair</span> <br>
 <label>Frequency:</label>
- <span>Mon - Sun</span> <br>
+<span>Mon - Sun</span> <br>
 <label>Season:</label>
 <span>Year round</span> <br>
 <a class="button" target="_blank" href="https://www.ryanair.com/">Book Now</a>
@@ -6318,7 +6319,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <span>May to October</span> <br>
 <a class="button" target="_blank" href="https://marian.ie/">Book now with Marian Pilgrimages</a>
 <a class="button" target="_blank" href="http://www.joewalshtours.ie/">Book now with Joe Walsh Tours</a>
-</div>
+ </div>
 <div id="map-dest-17" class="map-dest-desc animated fadeIn">
 <label>Airline:</label>
 <span>Ryanair</span> <br>
@@ -6357,7 +6358,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </div>
 <div id="map-dest-21" class="map-dest-desc animated fadeIn">
 <label>Tour Operator:</label>
- <span>Marian Pilgrimages, Joe Walsh Tours</span> <br>
+<span>Marian Pilgrimages, Joe Walsh Tours</span> <br>
 <label>Frequency:</label>
 <span>Ad Hoc</span> <br>
 <label>Season:</label>
@@ -7761,7 +7762,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <div class="tooltip" style="min-width:350px;" id="tooltip_10">
 <table style="margin: 0px;">
 <tr>
- <td style="width:30%;">
+<td style="width:30%;">
 <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
 <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a> </div>
 </td>
@@ -7847,7 +7848,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </li>
 <li class="hover">
 <a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map" id="12">
-<img src="https://www.irelandwestairport.com/uploads/destinations/-55d9215af351cf.jpg" alt="Icon">
+ <img src="https://www.irelandwestairport.com/uploads/destinations/-55d9215af351cf.jpg" alt="Icon">
 <h5 style="font-size: 12pt; color: #333;">Liverpool</h5>
 </a>
 <div class="tooltip" style="min-width:350px;" id="tooltip_12">
@@ -7910,7 +7911,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <span>Season:</span> Year round <br>
 </div>
 </td>
- </tr>
+</tr>
 </table>
 </div>
 </li>
@@ -7994,7 +7995,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <td style="width:30%;">
 <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
 <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a> </div>
-</td>
+ </td>
 <td>
 <div class="_inner" style="float:left; font-weight: bold;">
 <span>Airline:</span> Ryanair<br>
@@ -8068,7 +8069,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <div class="_inner" style="float:left; font-weight: bold;">
 <span>Airline:</span> Lauda<br>
 <span>Frequency:</span> Twice weekly <br>
-<span>Season:</span> Mar-Oct <br>
+ <span>Season:</span> Mar-Oct <br>
 </div>
 </td>
 </tr>
@@ -8120,7 +8121,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </td>
 <td>
 <div class="_inner" style="float:left; font-weight: bold;">
- <span>Tour Operator: </span>Marian Pilgrimages,<br>
+<span>Tour Operator: </span>Marian Pilgrimages,<br>
 <span>Frequency:</span> Mon - Sun <br>
 <span>Season:</span> May to October <br>
 </div>
@@ -8178,7 +8179,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </div>
 </h5>
 </div>
- </li>
+</li>
 </ul></div>
 <div class="col-md-4 col-sm-4">
 <ul>
@@ -8188,7 +8189,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <h5 class="hover2"><a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map2" id="4">Alicante</a>
 <div class="tooltip2" style="min-width:350px;" id="tooltip_4">
 <table style="margin: 0px;">
-<tr>
+ <tr>
 <td style="width:30%;">
 <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
 <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a> </div>
@@ -8235,7 +8236,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <div class="_inner" style="float:left; font-weight: bold;">
 <span>Tour Operator: </span>Paul Claffey Tours<br>
 <span>Frequency:</span> Ad Hoc <br>
-<span>Season:</span> May <br>
+ <span>Season:</span> May <br>
 </div>
 </td>
 </tr>
@@ -8329,7 +8330,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <tr>
 <td style="width:30%;">
 <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
-<a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a>  </div>
+<a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a> </div>
 </td>
 <td>
 <div class="_inner" style="float:left; font-weight: bold;">
@@ -8337,7 +8338,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <span>Frequency:</span> Two weekly flights <br>
 <span>Season:</span> Year round <br>
 </div>
-</td>
+ </td>
 </tr>
 </table>
 </div>
@@ -8428,7 +8429,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </td>
 <td>
 <div class="_inner" style="float:left; font-weight: bold;">
- <span>Airline:</span> Ryanair<br>
+<span>Airline:</span> Ryanair<br>
 <span>Frequency:</span> Two weekly flights <br>
 <span>Season:</span> Year round <br>
 </div>
@@ -8716,7 +8717,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <span>Year round</span> <br>
 <a class="button" target="_blank" href="https://www.ryanair.com/">Book Now</a>
 </div>
-<div id="map-dest-7" class="map-dest-desc animated fadeIn">
+ <div id="map-dest-7" class="map-dest-desc animated fadeIn">
 <label>Airline:</label>
 <span>Flybe</span> <br>
 <label>Frequency:</label>
@@ -10166,7 +10167,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <div class="_inner" style="float:left; font-weight: bold;">
 <span>Airline:</span> Ryanair<br>
 <span>Frequency:</span> Weekly <br>
-<span>Season:</span> April to October <br>
+ <span>Season:</span> April to October <br>
 </div>
 </td>
 </tr>
@@ -10320,7 +10321,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <table style="margin: 0px;">
 <tr>
 <td style="width:40%;">
-<div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
+ <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
 <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="http://www.paulclaffeytours.com/"> Book Now</a> </div>
 </td>
 <td>
@@ -10393,7 +10394,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a> </div>
 </td>
 <td>
-<div class="_inner" style="float:left; font-weight: bold;">
+ <div class="_inner" style="float:left; font-weight: bold;">
 <span>Airline:</span> Ryanair<br>
 <span>Frequency:</span> Daily <br>
 <span>Season:</span> Year round <br>
@@ -10467,8 +10468,8 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <span>Frequency:</span> Weekly <br>
 <span>Season:</span>  April to October <br>
 </div>
-</td>
- </tr>
+ </td>
+</tr>
 </table>
 </div>
 </li>
@@ -10586,7 +10587,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <td>
 <div class="_inner" style="float:left; font-weight: bold;">
 <span>Tour Operator: </span>Marian Pilgrimages,<br>
- <span>Frequency:</span> Ad Hoc <br>
+<span>Frequency:</span> Ad Hoc <br>
 <span>Season:</span> May to October <br>
 </div>
 </td>
@@ -10644,7 +10645,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 </h5>
 </div>
 </li>
- <li>
+<li>
 <div class="c_name">
 <h4>Portugal</h4>
 <h5 class="hover2"><a href="javascript:void(0)" url-id="#demo-map1" data-trigger="tab" class="destination_map2" id="24">Faro</a>
@@ -10660,7 +10661,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <span>Tour Operator: </span>Paul Claffey Tours<br>
 <span>Frequency:</span> Ad Hoc <br>
 <span>Season:</span> September - October <br>
-</div>
+ </div>
 </td>
 </tr>
 </table>
@@ -10716,7 +10717,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <div class="tooltip2" style="min-width:450px;" id="tooltip_2">
 <table style="margin: 0px;">
 <tr>
-<td style="width:40%;">
+ <td style="width:40%;">
 <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
 <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.paulclaffeytours.com/"> Book now with Paul Claffey Tours</a> </div>
 </td>
@@ -10746,7 +10747,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <span>Season:</span>  April to October <br>
 </div>
 </td>
- </tr>
+</tr>
 </table>
 </div>
 </h5>
@@ -10799,7 +10800,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <tr>
 <td style="width:30%;">
 <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
- <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a> </div>
+<a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a> </div>
 </td>
 <td>
 <div class="_inner" style="float:left; font-weight: bold;">
@@ -10817,7 +10818,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <table style="margin: 0px;">
 <tr>
 <td style="width:30%;">
-<div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
+ <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
 <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a> </div>
 </td>
 <td>
@@ -10864,7 +10865,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <span>Frequency:</span> Daily <br>
 <span>Season:</span> Year round <br>
 </div>
-</td>
+ </td>
 </tr>
 </table>
 </div>
@@ -10896,7 +10897,7 @@ box-shadow: 0px 0px 8px 1px rgba(173,173,173,1);
 <div style="float:left; padding-right:10px; text-align: center; text-transform: uppercase;">
 <a target="_blank" style=" font-size:12px;" class="btn-booknow" href="https://www.ryanair.com/"> Book Now</a> </div>
 </td>
- <td>
+<td>
 <div class="_inner" style="float:left; font-weight: bold;">
 <span>Airline:</span> Ryanair<br>
 <span>Frequency:</span> Daily <br>
@@ -11437,6 +11438,6 @@ $("#owl-news_mob").owlCarousel({
 
             });
         </script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"66aedd608fae4233","token":"5c57d97659e94e0085a1d41247fcad19","version":"2021.6.0","si":10}'></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"66aeec1bce0be5e8","token":"5c57d97659e94e0085a1d41247fcad19","version":"2021.6.0","si":10}'></script>
 </body>
 </html>
